@@ -69,11 +69,11 @@ export default class DashboardInfo extends Component {
                                 <td className="profile-field-entry">{localStorage.getItem("email")}</td>
                             </tr>
                         </table>
-                        <table className="profile-info-table">
+                        {/* <table className="profile-info-table">
                             <tr>
                                 <td className="profile-field-entry">{localStorage.getItem("bio")}</td>
                             </tr>
-                        </table>
+                        </table> */}
                     </div>
                 </div>
             )
